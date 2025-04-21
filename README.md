@@ -21,3 +21,6 @@ json-server --watch db.json --port 3000
 
 ### Detalle de una Película
 ![Detalle con reseñas](img/captura-detalle.png)
+
+### Detalle de reseña 
+![Detalle con reseñas](img/captura-reseña.png)
