@@ -10,7 +10,7 @@ Aplicación web simple para mostrar un catálogo de películas, con reseñas de 
 
 ## Cómo ejecutar
 
-```bash
+bash
 json-server --watch db.json --port 3000
 
 
