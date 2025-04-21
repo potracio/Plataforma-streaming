@@ -13,6 +13,7 @@ Aplicación web simple para mostrar un catálogo de películas, con reseñas de 
 ```bash
 json-server --watch db.json --port 3000
 
+
 ## Capturas de la aplicación
 
 ### Catálogo de Películas
