@@ -1,0 +1,95 @@
+/* Estilo para la galería del catálogo */
+#galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Espacio entre las películas */
+  flex-wrap: wrap; /* Permite que las imágenes se ajusten si es necesario */
+  margin-top: 60px;
+}
+
+.pelicula {
+  text-align: center;
+  width: 100px; /* Establecemos un tamaño uniforme */
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pelicula img {
+  max-width: 200%; /* Ajusta el tamaño de la imagen al contenedor */
+  height: 150px;  /* Ajusta la altura para que todas las imágenes tengan el mismo tamaño */
+  object-fit: cover; /* Mantiene la proporción de la imagen sin deformarla */
+  border-radius: 8px;
+}
+
+/* Estilo para la página de detalles */
+#detalle-pelicula {
+  max-width: 300px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#detalle-pelicula img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Establece un ancho máximo para el formulario */
+  margin: 20px auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+#resenas {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#resenas h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#resenas p {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}

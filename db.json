@@ -1,0 +1,70 @@
+{
+  "peliculas": [
+    {
+      "id": "1",
+      "titulo": "El viaje de Chihiro",
+      "portada": "img/chihiro.jpg",
+      "director": "Hayao Miyazaki",
+      "anio": 2001,
+      "genero": "Animación",
+      "sinopsis": "Una niña entra en un mundo mágico y debe salvar a sus padres.",
+      "puntaje_promedio": 4.8,
+      "resenas": [
+        {
+          "usuario": "renato",
+          "comentario": "me gustaría verla e escuchado que es buena pelicula"
+        },
+        {
+          "usuario": "carlos",
+          "comentario": "excente pelicula, muy entretenida."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Matrix",
+      "portada": "img/matrix.jpg",
+      "director": "Hermanas Wachowski",
+      "anio": 1999,
+      "genero": "Ciencia Ficción",
+      "sinopsis": "Un hacker descubre la verdad sobre su realidad.",
+      "puntaje_promedio": 4.6,
+      "resenas": [
+        {
+          "comentario": "muy buena la trilogia"
+        },
+        {
+          "usuario": "renato",
+          "comentario": "ya quiero ver las secuelas"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Interstellar",
+      "portada": "img/interstellar.jpg",
+      "director": "Christopher Nolan",
+      "anio": 2014,
+      "genero": "Ciencia Ficción",
+      "sinopsis": "Un grupo de astronautas viaja a través de un agujero de gusano.",
+      "puntaje_promedio": 4.7,
+      "resenas": []
+    },
+    {
+      "id": "4",
+      "titulo": "Pulp Fiction",
+      "portada": "img/pulpfiction.jpg",
+      "director": "Quentin Tarantino",
+      "anio": 1994,
+      "genero": "Crimen",
+      "sinopsis": "Historias entrelazadas de crimen en Los Ángeles.",
+      "puntaje_promedio": 4.5,
+      "resenas": [
+        {
+          "usuario": "patricio",
+          "comentario": "no la e visto"
+        }
+      ]
+    }
+  ]
+}
